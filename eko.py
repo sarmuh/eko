@@ -345,7 +345,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Asosiy funksiya
 def main():
     try:
-        application = ApplicationBuilder().token("8160423747:AAEkMiIsS_MQfXW5ZiWU9qQnTQGYbhJfOEs").build()
+        application = ApplicationBuilder().token("8160423747:AAFNW89Jcs4wBxaXACNS3BbdB-6LGUDmlK8").build()
         application.add_handler(CommandHandler("start", start))
         application.add_handler(CommandHandler("quiz", quiz))
         application.add_handler(CommandHandler("help", help_command))
